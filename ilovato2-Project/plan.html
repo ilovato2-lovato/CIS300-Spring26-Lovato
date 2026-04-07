@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan a night out with NightPulse by choosing venues based on music, atmosphere, and experience.">
+  <meta name="keywords" content="night out, nightlife planning, clubs, bars, lounges, events">
+  <meta name="author" content="Your Name">
+  <title>NightPulse | Plan Your Night</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>NightPulse</h1>
+      <p class="tagline">Your guide to the best nightlife in the city</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="clubs.html">Clubs</a></li>
+        <li><a href="lounges.html">Bars & Lounges</a></li>
+        <li><a href="plan.html">Plan Your Night</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h2>Plan Your Night Out</h2>
+        <p>
+          This page helps users think through their ideal night by sharing preferences about music, venue type,
+          and group size.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Nightlife Preference Form</h2>
+        <form action="#">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name">
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email">
+
+          <label for="venue">Preferred Venue Type</label>
+          <select id="venue" name="venue">
+            <option value="">Choose one</option>
+            <option value="club">Club</option>
+            <option value="bar">Bar</option>
+            <option value="lounge">Lounge</option>
+          </select>
+
+          <label for="music">Favorite Music Style</label>
+          <input type="text" id="music" name="music" placeholder="Example: EDM, Hip-Hop, Latin">
+
+          <label for="details">Describe Your Ideal Night Out</label>
+          <textarea id="details" name="details" rows="6" placeholder="Tell us about the kind of atmosphere and experience you want"></textarea>
+
+          <button type="submit">Submit Preferences</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <div class="container">
+        <h2>Contact by Email</h2>
+        <p>
+          To suggest a venue or ask a question, use this email link:
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nightpulseguide@example.com" target="_blank" rel="noopener noreferrer">
+            Email NightPulse
+          </a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 NightPulse. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
